@@ -1,13 +1,5 @@
-when pushing an existing repository from the command line,
-I often got the error messages
-
-"error: src refspec master does not match any."
-"error: failed to push some refs to https:// ~ "
-
-I don't know why it happens.. anyway
-the steps below worked pretty well for me
 
 1. git add .
-2. git fetch
-3. git commit -m "Init"
+2. (git fetch)
+3. git commit -m "write_any_message"
 4. git push -u origin master
